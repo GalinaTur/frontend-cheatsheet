@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-cheatsheet/static/css/main.7eada0c1.css",
-    "main.js": "/frontend-cheatsheet/static/js/main.99348f8b.js",
+    "main.css": "/frontend-cheatsheet/static/css/main.bbe49d8a.css",
+    "main.js": "/frontend-cheatsheet/static/js/main.77910327.js",
     "react-syntax-highlighter/refractor-core-import.js": "/frontend-cheatsheet/static/js/react-syntax-highlighter/refractor-core-import.62fe103c.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/frontend-cheatsheet/static/js/react-syntax-highlighter_languages_refractor_abap.18f5cc2b.chunk.js",
     "react-syntax-highlighter_languages_refractor_abnf.js": "/frontend-cheatsheet/static/js/react-syntax-highlighter_languages_refractor_abnf.422bc320.chunk.js",
@@ -282,8 +282,8 @@
     "react-syntax-highlighter_languages_refractor_zig.js": "/frontend-cheatsheet/static/js/react-syntax-highlighter_languages_refractor_zig.fa6244d7.chunk.js",
     "static/js/787.d23fb766.chunk.js": "/frontend-cheatsheet/static/js/787.d23fb766.chunk.js",
     "index.html": "/frontend-cheatsheet/index.html",
-    "main.7eada0c1.css.map": "/frontend-cheatsheet/static/css/main.7eada0c1.css.map",
-    "main.99348f8b.js.map": "/frontend-cheatsheet/static/js/main.99348f8b.js.map",
+    "main.bbe49d8a.css.map": "/frontend-cheatsheet/static/css/main.bbe49d8a.css.map",
+    "main.77910327.js.map": "/frontend-cheatsheet/static/js/main.77910327.js.map",
     "refractor-core-import.62fe103c.chunk.js.map": "/frontend-cheatsheet/static/js/react-syntax-highlighter/refractor-core-import.62fe103c.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.18f5cc2b.chunk.js.map": "/frontend-cheatsheet/static/js/react-syntax-highlighter_languages_refractor_abap.18f5cc2b.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abnf.422bc320.chunk.js.map": "/frontend-cheatsheet/static/js/react-syntax-highlighter_languages_refractor_abnf.422bc320.chunk.js.map",
@@ -565,7 +565,7 @@
     "787.d23fb766.chunk.js.map": "/frontend-cheatsheet/static/js/787.d23fb766.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eada0c1.css",
-    "static/js/main.99348f8b.js"
+    "static/css/main.bbe49d8a.css",
+    "static/js/main.77910327.js"
   ]
 }

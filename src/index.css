@@ -20,6 +20,19 @@ body {
   min-height: 100vh;
 }
 
+table {
+  text-align: center;
+}
+
+thead {
+  background-color: #CFE2FF;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 2px 10px;
+}
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

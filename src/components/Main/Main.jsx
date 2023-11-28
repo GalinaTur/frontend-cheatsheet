@@ -2,7 +2,7 @@ import store from '../../store'
 import styles from './Main.modules.css'
 import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
-import { CodeBlock, monokai } from 'react-code-blocks';
+import { CodeBlock, solarizedLight } from 'react-code-blocks';
 
 function Main() {
     return store && (
@@ -27,7 +27,7 @@ function Main() {
                                                                     <h5>{`${id + 1}. ${question.question}`}</h5>
                                                                     {question.answer}
                                                                     {question.code &&
-                                                                        <CodeBlock text={question.code} language='html' theme={monokai} />}
+                                                                        <code><CodeBlock text={question.code} language='html' theme={solarizedLight} /></code>}
                                                                 </div>
                                                             )
                                                         })}

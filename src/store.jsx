@@ -12,9 +12,9 @@ const store = [
                             І якщо у коді вказані інші файли такі як стилі css, js - то завантажує і їх. І уже з завантаженого з сервера HTML коду браузер формує - DOM.
                             Браузер створює DOM для того щоб за допомогою JavaScript можна було швидко маніпулювати веб-документом: шукати потрібний елемент, додавати нові елементи, отримати наступний дочірний елемент і т.п..
                             DOM схожий на вихідний код HTML але не є ним, а лише формується з нього. DOM має деревоподібну ієархію. Документ DOM складається з вузлів Node. Кожен вузол може містити у собі вбудований вузол, елемент, текст чи коментар.
-                            </p>
+                        </p>
                             <a target='_blank' href='https://w3schoolsua.github.io/js/js_htmldom.html#gsc.tab=0'>Click!</a>
-                            </div>
+                        </div>
                     },
                 ]
             }
@@ -29,7 +29,7 @@ const store = [
                     {
                         question: 'Що таке специфічність селекторів?',
                         answer: <div><p>Специфічність – це алгоритм, що використовується браузерами для визначення того оголошення CSS, яке найбільше відповідає елементові. І котре, своєю чергою, визначає те значення властивості, яке буде застосовано до елемента. Алгоритм специфічності обчислює вагу селектора CSS, щоб визначити, яке правило серед суперницьких оголошень CSS застосовується до елемента.</p>
-                         <a target='_blank' href='https://developer.mozilla.org/ru/docs/Web/CSS/Specificity'>Click!</a>
+                            <a target='_blank' href='https://developer.mozilla.org/ru/docs/Web/CSS/Specificity'>Click!</a>
                         </div>
                     },
                     {
@@ -128,8 +128,66 @@ const store = [
                                 <li>Перенаправлення 300 - 399</li>
                                 <li>Клієнтські помилки 400 – 499</li>
                                 <li>Серверні помилки 500 - 599</li>
+                                <a target='_blank' href='https://developer.mozilla.org/ru/docs/Web/HTTP/Status'>Click!</a>
                             </ul>
-                            <a target='_blank' href='https://developer.mozilla.org/ru/docs/Web/HTTP/Status'>Click!</a>
+                        </div>
+                    },
+                    {
+                        question: 'Що таке Cross-Origin Resource Sharing? Як усунути проблеми з CORS?',
+                        answer: <div><p><i>Cross-Origin Resource Sharing</i> (CORS або “спільне використання ресурсів різними джерелами”) – це контрольований та застосовуваний у примусовому порядку клієнтом (браузером) механізм забезпечення безпеки на основі HTTP.
+                            Він дозволяє службі (API) вказувати будь-яке джерело (origin), крім себе, з якого клієнт може запитувати ресурси.</p>
+                            <p>Щоб браузер дозволив доступ до ресурсів з іншого джерела, він повинен отримати певні заголовки у відповіді від сервера, які вказують, чи дозволяє сервер запити з інших джерел:</p>
+                            <ul>
+                                <li><code>Access-Control-Allow-Origin</code> вказує, яке джерело може отримувати ресурси.</li>
+                                <li><code>Access-Control-Allow-Methods</code> вказує, які HTTP-методи дозволені.</li>
+                                <li><code>Access-Control-Allow-Headers</code> вказує, які заголовки запитів дозволено. </li>
+                                <li><code>Access-Control-Allow-Credentials</code> вказує, чи дозволено надсилання файлів cookie. Типово: false.</li>
+                                <li><code>Access-Control-Max-Age</code> вказує в секундах, як довго має кешуватися результат запиту. Типово: 0.</li>
+                                <a target='_blank' href='https://habr.com/ru/companies/otus/articles/706908/'>Click!</a>
+                            </ul>
+                        </div>
+                    },
+                    {
+                        question: 'Що таке cookie і який їх максимальний розмір?',
+                        answer: <div><p>HTTP cookie (web cookie, cookie браузера) - це невеликий фрагмент даних, який сервер надсилає браузеру користувача. Браузер може зберегти цей фрагмент у себе та відправляти на сервер з кожним наступним запитом. Це, зокрема, дозволяє дізнатися, чи з одного браузера надійшло кілька запитів (наприклад, для автентифікації користувача).</p>
+                            <p>Куки часто використовуються для:</p>
+                            <ul>
+                                <li>Управління сеансом (логіни, кошики для віртуальних покупок)</li>
+                                <li>Персоналізації (уподобання користувача)</li>
+                                <li>Трекінгу (відстеження поведінки користувачів)</li>
+                            </ul>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Web Browser</th>
+                                        <th>Maximum cookies</th>
+                                        <th>Maximum size per cookie</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Google Chrome</td>
+                                        <td>180</td>
+                                        <td>4096 bytes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Firefox</td>
+                                        <td>150</td>
+                                        <td>4097 bytes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Opera</td>
+                                        <td>180</td>
+                                        <td>4096 bytes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Android</td>
+                                        <td>50</td>
+                                        <td>4096 bytes</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a target='_blank' href='https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies'>Click!</a>
                         </div>
                     },
                 ]
